@@ -13,3 +13,5 @@ PaperTesis_Proyect/source/CassettiFreryR1.pdf
 *.gz
 PaperTesis_Proyect/Data/PaperTesis/.Rhistory
 .Rproj.user
+*.dvi
+PaperTesis_Proyect/ParaEnviarRevista/CassettiFreryR1.pdf
