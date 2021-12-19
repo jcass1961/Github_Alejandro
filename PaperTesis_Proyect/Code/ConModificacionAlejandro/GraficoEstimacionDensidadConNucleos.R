@@ -124,31 +124,23 @@ ggplot(resultados, aes(x=rangox)) +
   stat_function(fun=dGI0, args=list(alfa,gama,L), n=1000, colour="black", size=1.2) + 
   xlim(0,5)+
   xlab(nombre.x)+
-  ylab(expression(widehat(f)[G[I]^0]))+
+  ylab(expression(widehat(italic(f))[G[italic(I)]^0]))+
   geom_hline(yintercept=0) +
-scale_colour_manual(name = "Kernels",
+scale_colour_manual(name = "Kernel",
                     values = c("blue","red","green"),
                     labels = legenda.nomb)+
-  scale_linetype_manual(name = "Kernels", 
+  scale_linetype_manual(name = "Kernel", 
                         values = c("Set1" ="solid", "Set2"="solid" ,"Set3"= "solid"),
                         labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=35, family="serif"),
+  theme(text=element_text(size=20, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=35),
-        legend.title = element_text( size=35),
-        axis.text.y = element_text( size = 35 ),
-        axis.text.x = element_text(hjust = 1, size = 35,angle=45),
-        axis.title.y = element_text( size = 35 ),
-        axis.title.x = element_text( size = 35 ),
+        legend.text = element_text( size=20),
+        legend.title = element_text( size=20),
+        axis.text.y = element_text( size = 20),
+        axis.text.x = element_text(hjust = 1, size = 20, angle=45),
+        axis.title.y = element_text( size = 20),
+        axis.title.x = element_text( size = 20),
         #axis.ticks.length=unit(0.5,"cm"),
-        strip.text = element_text(size = 35))
-
-getwd()
-
-
-ggsave("../../figures/ConModificacionAlejandro/NucleosGALNyIG.pdf", 
-       plot = last_plot(), 
-       device = "pdf", 
-       scale=2)
-#ggsave(graf.nucleos, plot = last_plot(), device = "pdf",scale=1.2)
+        strip.text = element_text(size = 20))
+ggsave(file="../../Figures/NucleosGALNyIG.pdf")
