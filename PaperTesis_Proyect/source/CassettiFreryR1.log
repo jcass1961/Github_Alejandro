@@ -1,21 +1,20 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.16)  19 DEC 2021 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.11)  19 DEC 2021 06:55
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**CassettiFreryR1.tex
-(./CassettiFreryR1.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
+**./CassettiFreryR1.tex
+(CassettiFreryR1.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-)) (./svjour3.cls
+))
+(svjour3.cls
 Document Class: svjour3 2007/05/08 v3.2 
 LaTeX document class for Springer journals
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fleqn.clo
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
 \mathindent=\skip47
 Applying: [2015/01/01] Make \[ robust on input line 50.
@@ -28,7 +27,8 @@ Already applied: [0000/00/00] Make \] robust on input line 83.
 Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
 (Springer-SVJour3)           not found in option list of \documentclass
 (Springer-SVJour3)           - autoactivating "global" style.
- (./svglov3.clo
+
+(svglov3.clo
 File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
 
 SVJour Class option: svglov3.clo for standardised journals
@@ -49,50 +49,50 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
 \betweenumberspace=\dimen140
 \aftertext=\dimen141
 \headlineindent=\dimen142
-\c@inst=\count183
-\c@auth=\count184
+\c@inst=\count182
+\c@auth=\count183
 \instindent=\dimen143
 \authrun=\box50
 \authorrunning=\toks16
 \titrun=\box51
 \titlerunning=\toks17
 \combirun=\box52
-\c@lastpage=\count185
+\c@lastpage=\count184
 \rubricwidth=\dimen144
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
 \spthmsep=\dimen145
-\c@theorem=\count191
-\c@case=\count192
-\c@conjecture=\count193
-\c@corollary=\count194
-\c@definition=\count195
-\c@example=\count196
-\c@exercise=\count197
-\c@lemma=\count198
-\c@note=\count199
-\c@problem=\count266
-\c@property=\count267
-\c@proposition=\count268
-\c@question=\count269
-\c@solution=\count270
-\c@remark=\count271
-\c@figure=\count272
-\c@table=\count273
+\c@theorem=\count190
+\c@case=\count191
+\c@conjecture=\count192
+\c@corollary=\count193
+\c@definition=\count194
+\c@example=\count195
+\c@exercise=\count196
+\c@lemma=\count197
+\c@note=\count198
+\c@problem=\count199
+\c@property=\count266
+\c@proposition=\count267
+\c@question=\count268
+\c@solution=\count269
+\c@remark=\count270
+\c@figure=\count271
+\c@table=\count272
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \figcapgap=\dimen146
 \tabcapgap=\dimen147
 \figgap=\dimen148
 \bibindent=\dimen149
-\@tempcntc=\count274
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/times.sty
+\@tempcntc=\count273
+) (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/bm.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
@@ -100,41 +100,41 @@ Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/bbm-macros/bbm.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen150
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
 \pmbraise@=\dimen151
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count275
+\inf@bad=\count274
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count276
-\leftroot@=\count277
+\uproot@=\count275
+\leftroot@=\count276
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count278
-\DOTSCASE@=\count279
+\classnum@=\count277
+\DOTSCASE@=\count278
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -143,15 +143,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count280
-\c@MaxMatrixCols=\count281
+\macc@depth=\count279
+\c@MaxMatrixCols=\count280
 \dotsspace@=\muskip16
-\c@parentequation=\count282
-\dspbrk@lvl=\count283
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
 \tag@help=\toks19
-\row@=\count284
-\column@=\count285
-\maxfields@=\count286
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
 \andhelp@=\toks20
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
@@ -163,101 +163,102 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip51
 \multlinetaggap=\skip52
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+)) (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip53
 \subfigcapskip=\skip54
 \subfigcaptopadj=\dimen161
 \subfigbottomskip=\skip55
 \subfigcapmargin=\dimen162
 \subfiglabelskip=\skip56
-\c@subfigure=\count287
-\c@lofdepth=\count288
-\c@subtable=\count289
-\c@lotdepth=\count290
-
+\c@subfigure=\count286
+\c@lofdepth=\count287
+\c@subtable=\count288
+\c@lotdepth=\count289
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg
+)
 \subfig@top=\skip57
 \subfig@bottom=\skip58
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+) (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/units/units.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/units\units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/units/nicefrac.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip59
 \L@UnitsRaiseTextstyle=\skip60
 \L@UnitsRaiseScriptstyle=\skip61
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/preprint/balance.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/preprint\balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen163
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip62
-\multirow@cntb=\count291
+\multirow@cntb=\count290
 \multirow@dima=\skip63
 \bigstrutjot=\dimen164
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen165
 \lightrulewidth=\dimen166
@@ -269,131 +270,131 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count292
-\@cmidlb=\count293
+\@cmidla=\count291
+\@cmidlb=\count292
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count294
-\@lastruleclass=\count295
+\@thisruleclass=\count293
+\@lastruleclass=\count294
 \@thisrulewidth=\dimen177
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count296
-)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 \MT@toks=\toks24
-\MT@count=\count297
-\MT@tempbox=\box55
-LaTeX Info: Redefining \leftprotrusion on input line 1010.
-LaTeX Info: Redefining \rightprotrusion on input line 1018.
-LaTeX Info: Redefining \textls on input line 1173.
+\MT@count=\count295
+LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen178
-LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
-\MT@listname@count=\count298
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count296
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 897.
-LaTeX Info: Redefining \lslig on input line 897.
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip64
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2021/12/10 v3.0b microtype main configuration file (RS)
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2021-12-03 v3.0.37 A comprehensive (SI) units package
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+)) (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2021-08-04 v3.0.24 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen179
-\l__siunitx_angle_marker_box=\box56
-\l__siunitx_angle_unit_box=\box57
-\l__siunitx_compound_count_int=\count299
+\l__siunitx_angle_marker_box=\box55
+\l__siunitx_angle_unit_box=\box56
+\l__siunitx_compound_count_int=\count297
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
 Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
 s (CN)
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count298
+)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+) (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count300
-\l__siunitx_number_min_decimal_int=\count301
-\l__siunitx_number_min_integer_int=\count302
-\l__siunitx_number_round_precision_int=\count303
-\l__siunitx_number_group_minimum_int=\count304
-\l__siunitx_table_tmp_box=\box58
+\l__siunitx_number_exponent_fixed_int=\count299
+\l__siunitx_number_min_decimal_int=\count300
+\l__siunitx_number_min_integer_int=\count301
+\l__siunitx_number_round_precision_int=\count302
+\l__siunitx_number_group_minimum_int=\count303
+ (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+\l__siunitx_table_tmp_box=\box57
 \l__siunitx_table_tmp_dim=\dimen180
 \l__siunitx_table_column_width_dim=\dimen181
-\l__siunitx_table_integer_box=\box59
-\l__siunitx_table_decimal_box=\box60
-\l__siunitx_table_before_box=\box61
-\l__siunitx_table_after_box=\box62
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_before_box=\box60
+\l__siunitx_table_after_box=\box61
 \l__siunitx_table_before_dim=\dimen182
 \l__siunitx_table_carry_dim=\dimen183
-\l__siunitx_unit_tmp_int=\count305
-\l__siunitx_unit_position_int=\count306
-\l__siunitx_unit_total_int=\count307
+\l__siunitx_unit_tmp_int=\count304
+\l__siunitx_unit_position_int=\count305
+\l__siunitx_unit_total_int=\count306
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-11-22 L3 programming layer (loader) 
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count308
-\l__pdf_internal_box=\box63
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box62
 ))
-Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
 
 Package siunitx Warning: Detected the "units" package:
 (siunitx)                Omitting definition of \unit.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen184
-\ar@mcellbox=\box64
+\ar@mcellbox=\box63
 \extrarowheight=\dimen185
 \NC@list=\toks25
 \extratabsurround=\skip65
 \backup@length=\skip66
-\ar@cellbox=\box65
+\ar@cellbox=\box64
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/10/11 v1.3b Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count309
+\c@float@type=\count308
 \float@exts=\toks26
-\float@box=\box66
+\float@box=\box65
 \@float@everytoks=\toks27
-\@floatcapt=\box67
+\@floatcapt=\box66
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -425,22 +426,22 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box68
-\sift@deathcycles=\count310
+\@vwid@box=\box67
+\sift@deathcycles=\count309
 \@vwid@loff=\dimen186
 \@vwid@roff=\dimen187
 )
-(/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box69
-\UL@hyphenbox=\box70
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box68
+\UL@hyphenbox=\box69
 \UL@skip=\skip67
 \UL@hook=\toks28
 \UL@height=\dimen188
-\UL@pe=\count311
+\UL@pe=\count310
 \UL@pixel=\dimen189
-\ULC@box=\box71
+\ULC@box=\box70
 Package: ulem 2019/11/18
 \ULdepth=\dimen190
 )
@@ -449,10 +450,10 @@ h' as default language. on input line 51.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 1.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./CassettiFreryR1.aux
+(CassettiFreryR1.aux
 
 LaTeX Warning: Label `Fig:DistEstimator' multiply defined.
 
@@ -476,31 +477,38 @@ LaTeX Font Info:    ... okay on input line 51.
 
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
+\scratchcounter=\count311
 \scratchdimen=\dimen191
-\scratchbox=\box72
-\nofMPsegments=\count313
-\nofMParguments=\count314
+\scratchbox=\box71
+\nofMPsegments=\count312
+\nofMParguments=\count313
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count315
+\MPscratchCnt=\count314
 \MPscratchDim=\dimen192
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
 \everyMPtoPDFconversion=\toks30
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+))
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -510,15 +518,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 51.
-Package microtype Info: Applying patch `item' on input line 51.
-Package microtype Info: Applying patch `toc' on input line 51.
-Package microtype Info: Applying patch `eqnum' on input line 51.
-Package microtype Info: Applying patch `footnote' on input line 51.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -530,20 +534,11 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-
-LaTeX hooks Warning: Generic hook
-(hooks)              'file/after/translations-basic-dictionary-english.trsl'
-(hooks)              is deprecated.
-(hooks)              Use hook
-(hooks)              'file/translations-basic-dictionary-english.trsl/after'
-(hooks)              instead.
-
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-d
-ictionary-english.trsl
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
@@ -554,7 +549,7 @@ SVJour3 warning: Missing \journalname
 LaTeX Font Info:    Calculating math sizes for size <16> on input line 82.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  82.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -564,29 +559,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
  82.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
  82.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
  82.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
@@ -612,14 +607,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{C:/Users/Julia/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-]
-[2]
+] [2]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 24.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -638,15 +633,15 @@ a stochas-
  []
 
 Package epstopdf Info: Source file: <../Figures/NucleosGALNyIG.eps>
-(epstopdf)                    date: 2021-12-19 17:15:31
-(epstopdf)                    size: 382098 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 393334 bytes
 (epstopdf)             Output file: <../Figures/NucleosGALNyIG-eps-converted-to
 .pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/NucleosGALNyIG-
-eps-converted-to.pdf ../Figures/NucleosGALNyIG.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/NucleosGA
+LNyIG-eps-converted-to.pdf ../Figures/NucleosGALNyIG.eps>
 (epstopdf)             \includegraphics on input line 351.
-runsystem(repstopdf --outfile=../Figures/NucleosGALNyIG-eps-converted-to.pdf ..
-/Figures/NucleosGALNyIG.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/NucleosGALNyIG-eps-converted-to.
+pdf ../Figures/NucleosGALNyIG.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/NucleosGALNyIG-eps-converted-to
 .pdf>.
@@ -665,15 +660,15 @@ If that doesn't work, type  X <return>  to quit.
 
 [4]
 Package epstopdf Info: Source file: <../Figures/DensidadGI0L3.eps>
-(epstopdf)                    date: 2021-12-19 17:15:26
-(epstopdf)                    size: 318848 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 329251 bytes
 (epstopdf)             Output file: <../Figures/DensidadGI0L3-eps-converted-to.
 pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/DensidadGI0L3-e
-ps-converted-to.pdf ../Figures/DensidadGI0L3.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadG
+I0L3-eps-converted-to.pdf ../Figures/DensidadGI0L3.eps>
 (epstopdf)             \includegraphics on input line 431.
-runsystem(repstopdf --outfile=../Figures/DensidadGI0L3-eps-converted-to.pdf ../
-Figures/DensidadGI0L3.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/DensidadGI0L3-eps-converted-to.p
+df ../Figures/DensidadGI0L3.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/DensidadGI0L3-eps-converted-to.
 pdf>.
@@ -692,15 +687,15 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/DensidadGI0L8.eps>
-(epstopdf)                    date: 2021-12-19 17:15:28
-(epstopdf)                    size: 315986 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 326352 bytes
 (epstopdf)             Output file: <../Figures/DensidadGI0L8-eps-converted-to.
 pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/DensidadGI0L8-e
-ps-converted-to.pdf ../Figures/DensidadGI0L8.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadG
+I0L8-eps-converted-to.pdf ../Figures/DensidadGI0L8.eps>
 (epstopdf)             \includegraphics on input line 432.
-runsystem(repstopdf --outfile=../Figures/DensidadGI0L8-eps-converted-to.pdf ../
-Figures/DensidadGI0L8.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/DensidadGI0L8-eps-converted-to.p
+df ../Figures/DensidadGI0L8.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/DensidadGI0L8-eps-converted-to.
 pdf>.
@@ -719,24 +714,24 @@ If that doesn't work, type  X <return>  to quit.
 
 [5]
 Overfull \hbox (3.23244pt too wide) in paragraph at lines 467--467
-[]|$\OMS/ztmcm/m/n/8.5 ^^@\OT1/ztmcm/m/n/8.5 1\OML/ztmcm/m/it/8.5 :\OT1/ztmcm/m
-/n/8.5 5$|  
+[]|$\OMS/ztmcm/m/n/8.5  \OT1/ztmcm/m/n/8.5 1\OML/ztmcm/m/it/8.5 :\OT1/ztmcm/m/n
+/8.5 5$|  
  []
 
 [6]
 Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
 ont_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:29
-(epstopdf)                    size: 209258 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 220069 bytes
 (epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
 ont_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoSesgoMVy
-GAyLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/Grafi
-coSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
+sgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures
+/GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
 (epstopdf)             \includegraphics on input line 617.
-runsystem(repstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCont_Bar
-rasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L=3S
-inCont_BarrasErroryPercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCo
+nt_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyL
+C_L=3SinCont_BarrasErroryPercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
 ont_BarrasErroryPercentil-eps-converted-to.pdf>.
@@ -756,17 +751,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
 t_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:28
-(epstopdf)                    size: 198074 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 207960 bytes
 (epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
 t_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoECMMVyGA
-yLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/Grafico
-ECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
+MMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/G
+raficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
 (epstopdf)             \includegraphics on input line 618.
-runsystem(repstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont_Barra
-sErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=3SinCo
-nt_BarrasErroryPercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont
+_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=
+3SinCont_BarrasErroryPercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
 t_BarrasErroryPercentil-eps-converted-to.pdf>.
@@ -785,17 +780,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
 ont_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:29
-(epstopdf)                    size: 209326 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 220137 bytes
 (epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
 ont_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoSesgoMVy
-GAyLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/Grafi
-coSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
+sgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures
+/GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
 (epstopdf)             \includegraphics on input line 628.
-runsystem(repstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCont_Bar
-rasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L=8S
-inCont_BarrasErroryPercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCo
+nt_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyL
+C_L=8SinCont_BarrasErroryPercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
 ont_BarrasErroryPercentil-eps-converted-to.pdf>.
@@ -814,17 +809,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
 t_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:29
-(epstopdf)                    size: 198032 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 207908 bytes
 (epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
 t_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoECMMVyGA
-yLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/Grafico
-ECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
+MMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/G
+raficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
 (epstopdf)             \includegraphics on input line 629.
-runsystem(repstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont_Barra
-sErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=8SinCo
-nt_BarrasErroryPercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont
+_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=
+8SinCont_BarrasErroryPercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
 t_BarrasErroryPercentil-eps-converted-to.pdf>.
@@ -842,15 +837,15 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/DensidadEstimadorNoCont.eps>
-(epstopdf)                    date: 2021-12-19 17:15:25
-(epstopdf)                    size: 363450 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 384143 bytes
 (epstopdf)             Output file: <../Figures/DensidadEstimadorNoCont-eps-con
 verted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/DensidadEstimad
-orNoCont-eps-converted-to.pdf ../Figures/DensidadEstimadorNoCont.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadE
+stimadorNoCont-eps-converted-to.pdf ../Figures/DensidadEstimadorNoCont.eps>
 (epstopdf)             \includegraphics on input line 641.
-runsystem(repstopdf --outfile=../Figures/DensidadEstimadorNoCont-eps-converted-
-to.pdf ../Figures/DensidadEstimadorNoCont.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/DensidadEstimadorNoCont-eps-conv
+erted-to.pdf ../Figures/DensidadEstimadorNoCont.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/DensidadEstimadorNoCont-eps-con
 verted-to.pdf>.
@@ -868,15 +863,15 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/Asymptotic_n500_TodoAlfa.eps>
-(epstopdf)                    date: 2021-12-19 17:15:23
-(epstopdf)                    size: 250052 bytes
+(epstopdf)                    date: 2021-12-19 06:53:41
+(epstopdf)                    size: 263573 bytes
 (epstopdf)             Output file: <../Figures/Asymptotic_n500_TodoAlfa-eps-co
 nverted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/Asymptotic_n500
-_TodoAlfa-eps-converted-to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/Asymptoti
+c_n500_TodoAlfa-eps-converted-to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps>
 (epstopdf)             \includegraphics on input line 658.
-runsystem(repstopdf --outfile=../Figures/Asymptotic_n500_TodoAlfa-eps-converted
--to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/Asymptotic_n500_TodoAlfa-eps-con
+verted-to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/Asymptotic_n500_TodoAlfa-eps-co
 nverted-to.pdf>.
@@ -899,17 +894,17 @@ Underfull \vbox (badness 2173) has occurred while \output is active []
  [7]
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
 5.eps>
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 254822 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 268536 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
 5-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-1punto5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L3
-n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-1punto5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1pu
+nto5L3n25.eps>
 (epstopdf)             \includegraphics on input line 785.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L3n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L3n25.eps)...executed saf
-ely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L3n25
+-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L3n25.eps)...execut
+ed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
 5-eps-converted-to.pdf>.
@@ -930,16 +925,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-3L3n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 257724 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 271616 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-3L3n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-3L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-3L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.ep
+s>
 (epstopdf)             \includegraphics on input line 786.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L3n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L3n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-3L3n25-eps-
 converted-to.pdf>.
@@ -959,16 +955,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-5L3n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 251265 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 264775 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-5L3n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.ep
+s>
 (epstopdf)             \includegraphics on input line 793.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L3n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L3n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-5L3n25-eps-
 converted-to.pdf>.
@@ -988,16 +985,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-8L3n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:25
-(epstopdf)                    size: 247069 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 260331 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-8L3n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-8L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-8L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.ep
+s>
 (epstopdf)             \includegraphics on input line 794.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L3n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L3n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-8L3n25-eps-
 converted-to.pdf>.
@@ -1017,17 +1015,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
 5.eps>
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 253591 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 267197 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
 5-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-1punto5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L8
-n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-1punto5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1pu
+nto5L8n25.eps>
 (epstopdf)             \includegraphics on input line 801.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L8n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L8n25.eps)...executed saf
-ely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L8n25
+-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L8n25.eps)...execut
+ed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
 5-eps-converted-to.pdf>.
@@ -1047,16 +1045,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-3L8n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 251290 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 264785 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-3L8n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-3L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-3L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.ep
+s>
 (epstopdf)             \includegraphics on input line 802.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L8n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L8n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-3L8n25-eps-
 converted-to.pdf>.
@@ -1076,16 +1075,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-5L8n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:25
-(epstopdf)                    size: 243652 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 256647 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-5L8n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.ep
+s>
 (epstopdf)             \includegraphics on input line 810.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L8n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L8n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-5L8n25-eps-
 converted-to.pdf>.
@@ -1105,16 +1105,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-8L8n25.eps>
 
-(epstopdf)                    date: 2021-12-19 17:15:25
-(epstopdf)                    size: 237916 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 250564 bytes
 (epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-8L8n25-eps-
 converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CurvaInfluencia
-Alfa-8L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
+uenciaAlfa-8L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.ep
+s>
 (epstopdf)             \includegraphics on input line 811.
-runsystem(repstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L8n25-eps-convert
-ed-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.eps)...executed safely (allowed
-).
+runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L8n25-eps-c
+onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.eps)...executed (allowed)
+.
 
 Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-8L8n25-eps-
 converted-to.pdf>.
@@ -1134,17 +1135,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
 _BarrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:29
-(epstopdf)                    size: 211879 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 222849 bytes
 (epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
 _BarrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoSesgoMVy
-GAyLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoS
-esgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
+sgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Gr
+aficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
 (epstopdf)             \includegraphics on input line 836.
-runsystem(repstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_Barras
-Errorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
-_BarrasErrorypercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_
+BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L
+=3Cont_BarrasErrorypercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
 _BarrasErrorypercentil-eps-converted-to.pdf>.
@@ -1163,17 +1164,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
 arrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:28
-(epstopdf)                    size: 200724 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 210771 bytes
 (epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
 arrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoECMMVyGA
-yLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECM
-MVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
+MMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Graf
+icoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
 (epstopdf)             \includegraphics on input line 837.
-runsystem(repstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_BarrasEr
-rorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_Bar
-rasErrorypercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_Ba
+rrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=3Co
+nt_BarrasErrorypercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
 arrasErrorypercentil-eps-converted-to.pdf>.
@@ -1192,17 +1193,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
 _BarrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:29
-(epstopdf)                    size: 211494 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 222451 bytes
 (epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
 _BarrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoSesgoMVy
-GAyLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoS
-esgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
+sgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Gr
+aficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
 (epstopdf)             \includegraphics on input line 844.
-runsystem(repstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_Barras
-Errorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
-_BarrasErrorypercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_
+BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L
+=8Cont_BarrasErrorypercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
 _BarrasErrorypercentil-eps-converted-to.pdf>.
@@ -1221,17 +1222,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
 arrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 17:15:28
-(epstopdf)                    size: 200504 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 210531 bytes
 (epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
 arrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/GraficoECMMVyGA
-yLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECM
-MVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
+MMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Graf
+icoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
 (epstopdf)             \includegraphics on input line 845.
-runsystem(repstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_BarrasEr
-rorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_Bar
-rasErrorypercentil.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_Ba
+rrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=8Co
+nt_BarrasErrorypercentil.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
 arrasErrorypercentil-eps-converted-to.pdf>.
@@ -1254,15 +1255,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9]
 [10]
 Package epstopdf Info: Source file: <../Figures/TresMuestrasAgrandada.eps>
-(epstopdf)                    date: 2021-12-19 17:15:31
-(epstopdf)                    size: 234273 bytes
+(epstopdf)                    date: 2021-12-19 06:53:43
+(epstopdf)                    size: 247387 bytes
 (epstopdf)             Output file: <../Figures/TresMuestrasAgrandada-eps-conve
 rted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/TresMuestrasAgr
-andada-eps-converted-to.pdf ../Figures/TresMuestrasAgrandada.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/TresMuest
+rasAgrandada-eps-converted-to.pdf ../Figures/TresMuestrasAgrandada.eps>
 (epstopdf)             \includegraphics on input line 879.
-runsystem(repstopdf --outfile=../Figures/TresMuestrasAgrandada-eps-converted-to
-.pdf ../Figures/TresMuestrasAgrandada.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/TresMuestrasAgrandada-eps-conver
+ted-to.pdf ../Figures/TresMuestrasAgrandada.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/TresMuestrasAgrandada-eps-conve
 rted-to.pdf>.
@@ -1281,15 +1282,15 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/CincoMuestras.eps>
-(epstopdf)                    date: 2021-12-19 17:15:23
-(epstopdf)                    size: 1107855 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 1155224 bytes
 (epstopdf)             Output file: <../Figures/CincoMuestras-eps-converted-to.
 pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CincoMuestras-e
-ps-converted-to.pdf ../Figures/CincoMuestras.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CincoMues
+tras-eps-converted-to.pdf ../Figures/CincoMuestras.eps>
 (epstopdf)             \includegraphics on input line 985.
-runsystem(repstopdf --outfile=../Figures/CincoMuestras-eps-converted-to.pdf ../
-Figures/CincoMuestras.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/CincoMuestras-eps-converted-to.p
+df ../Figures/CincoMuestras.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/CincoMuestras-eps-converted-to.
 pdf>.
@@ -1308,17 +1309,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <../Figures/AlfaVsTamCincoMuestrasCorregido
 _v2.eps>
-(epstopdf)                    date: 2021-12-19 17:15:23
-(epstopdf)                    size: 182913 bytes
+(epstopdf)                    date: 2021-12-19 06:53:41
+(epstopdf)                    size: 192032 bytes
 (epstopdf)             Output file: <../Figures/AlfaVsTamCincoMuestrasCorregido
 _v2-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/AlfaVsTamCincoM
-uestrasCorregido_v2-eps-converted-to.pdf ../Figures/AlfaVsTamCincoMuestrasCorre
-gido_v2.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/AlfaVsTam
+CincoMuestrasCorregido_v2-eps-converted-to.pdf ../Figures/AlfaVsTamCincoMuestra
+sCorregido_v2.eps>
 (epstopdf)             \includegraphics on input line 992.
-runsystem(repstopdf --outfile=../Figures/AlfaVsTamCincoMuestrasCorregido_v2-eps
--converted-to.pdf ../Figures/AlfaVsTamCincoMuestrasCorregido_v2.eps)...executed
- safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/AlfaVsTamCincoMuestrasCorregido_
+v2-eps-converted-to.pdf ../Figures/AlfaVsTamCincoMuestrasCorregido_v2.eps)...ex
+ecuted (allowed).
 
 Package epstopdf Info: Result file: <../Figures/AlfaVsTamCincoMuestrasCorregido
 _v2-eps-converted-to.pdf>.
@@ -1346,15 +1347,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
 Package epstopdf Info: Source file: <../Figures/CornerJulia_Roja.eps>
-(epstopdf)                    date: 2021-12-19 17:15:24
-(epstopdf)                    size: 617222 bytes
+(epstopdf)                    date: 2021-12-19 06:53:42
+(epstopdf)                    size: 656462 bytes
 (epstopdf)             Output file: <../Figures/CornerJulia_Roja-eps-converted-
 to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=../Figures/CornerJulia_Roj
-a-eps-converted-to.pdf ../Figures/CornerJulia_Roja.eps>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CornerJul
+ia_Roja-eps-converted-to.pdf ../Figures/CornerJulia_Roja.eps>
 (epstopdf)             \includegraphics on input line 1098.
-runsystem(repstopdf --outfile=../Figures/CornerJulia_Roja-eps-converted-to.pdf 
-../Figures/CornerJulia_Roja.eps)...executed safely (allowed).
+runsystem(miktex-epstopdf --outfile=../Figures/CornerJulia_Roja-eps-converted-t
+o.pdf ../Figures/CornerJulia_Roja.eps)...executed (allowed).
 
 Package epstopdf Info: Result file: <../Figures/CornerJulia_Roja-eps-converted-
 to.pdf>.
@@ -1372,7 +1373,7 @@ l.1098 ...\linewidth]{../Figures/CornerJulia_Roja}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[14] (./CassettiFreryR1.bbl [15]
+[14] (CassettiFreryR1.bbl [15]
 Underfull \hbox (badness 1127) in paragraph at lines 139--144
 []\OT1/ptm/m/n/8.5 (+20) Fei, Y., Rong, G., Wang, B., Wang, W.: Par-al-lel L-BF
 GS-
@@ -1398,35 +1399,36 @@ om / science /
 
 [16]) [17
 
-] (./CassettiFreryR1.aux)
+] (CassettiFreryR1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12046 strings out of 478353
- 274679 string characters out of 5848085
- 613814 words of memory out of 5000000
- 29512 multiletter control sequences out of 15000+600000
+ 11431 strings out of 478864
+ 256660 string characters out of 2848660
+ 609256 words of memory out of 3000000
+ 28692 multiletter control sequences out of 15000+600000
  488883 words of font info for 432 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,16n,77p,1012b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CassettiFreryR1.pdf (17 pages, 200246 bytes).
+ 73i,16n,81p,719b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
+/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Julia/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/Julia/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Julia/AppData/Local
+/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Julia/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Julia/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Julia/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Julia/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CassettiFreryR1.pdf (17 pages, 214327 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81921 words of extra memory for PDF output out of 89155 (max. 10000000)
 
