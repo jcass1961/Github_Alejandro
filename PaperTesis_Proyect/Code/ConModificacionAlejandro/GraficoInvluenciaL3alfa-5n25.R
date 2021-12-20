@@ -63,16 +63,16 @@ pp1<-ggplot(datos1, aes(x=grilla)) +
                         values = c("Set1" ="dashed", "Set2"="twodash" ,"Set3"= "dotted","Set4"="longdash"),
                         labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=45, family="serif"),
+  theme(text=element_text(size=55, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=45),
-        legend.title = element_text( size=45),
-        axis.text.y = element_text( size = 45 ),
+        legend.text = element_text( size=55),
+        legend.title = element_text( size=55),
+        axis.text.y = element_text( size = 55 ),
         axis.text.x = element_text(colour = c("red","red",rep("black",cant.black)),
-                                   angle=70,hjust = 1, size = 45),
-        axis.title.y = element_text( size = 45 ),
-        axis.title.x = element_text( size = 45 ),
-        strip.text = element_text(size = 45))
+                                   angle=70,hjust = 1, size = 55),
+        axis.title.y = element_text( size = 55 ),
+        axis.title.x = element_text( size = 55 ),
+        strip.text = element_text(size = 55))
 
 
 

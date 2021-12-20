@@ -65,7 +65,8 @@ nombre.ticks<-factor(base.df$alfa.est, levels = c("-1","-3","-5"),
 
 
 p<-ggplot(base.df, aes(x=alfa.est,color=metodo)) + 
-  facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3) + 
+  #facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3) + 
+  facet_wrap(~n,labeller = label_bquote(cols=italic("n="*.(n))),ncol=3) + 
   geom_line(stat='density', aes(linetype = metodo), size = 2) +
   scale_x_continuous(breaks=c(-3),limits = c(-6,-1))+
   #scale_color_discrete(name = LegendTitle,labels = legenda.nomb)+
