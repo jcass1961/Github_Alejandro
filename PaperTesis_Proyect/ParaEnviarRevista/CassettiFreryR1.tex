@@ -1,3 +1,4 @@
+% !TeX TS-program = latex
 \RequirePackage{fix-cm}
 %Journal of Mathematical Imaging and Vision
 \documentclass[twocolumn]{svjour3}
@@ -151,7 +152,7 @@ and $\Omega$ is the parameter space.
 In this oncoming, two elements are needed: a measure of distance and $\widehat{f}$.
 
 Wolfowitz~\cite{wolfowitz1953, wolfowitz1957} studied this class of estimators and showed that, under general conditions, they are strongly consistent. 
-Beran~\cite{beran1977} proposed an MDE estimator using Hellinger's distance between a theoretical model and a nonparametric density estimator using symmetric kernels. 
+Beran~\cite{Beran1977} proposed an MDE estimator using Hellinger's distance between a theoretical model and a nonparametric density estimator using symmetric kernels. 
 The work showed that this estimator is asymptotically efficient for certain parametric families of densities. 
 Parr and Schucany~\cite{parr1982} show that, under certain conditions, the MDE estimator between the empirical distribution function and theoretical distribution function is strongly consistent. 
 Cao et al.~\cite{cao1995minimum} proposed to minimize a distance between the theoretical density function and $\widehat{f}$ using the classic symmetric kernel estimator to estimate $f$. 
@@ -348,7 +349,7 @@ The $\Gamma$ and LN kernels show a better fit, the latter with higher kurtosis t
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=\linewidth]{../Figures/NucleosGALNyIG}
+\includegraphics[width=\linewidth]{NucleosGALNyIG}
 \caption{$\widehat{f}_{\mathcal{G}^0}$ for $L=8$, $\alpha=-5$, $\gamma=4$ and $n=25$ using $\Gamma$, LN, and IG kernels, and LSCV for bandwidth selection.}\label{EstimacionLNyGAyIG}
 \end{figure}
 %JC Programa: GraficoEstimacionDensidadConNucleos.R
@@ -428,8 +429,8 @@ Thus, our approach assumes that $\alpha$ takes values in the range of $[-20,-1]$
 
 \begin{figure}[hbt]
 \centering
-\subfigure[$L=3$]{\includegraphics[width=.75\linewidth]{../Figures/DensidadGI0L3}}
-\subfigure[$L=8$]{\includegraphics[width=.75\linewidth]{../Figures/DensidadGI0L8}}
+\subfigure[$L=3$]{\includegraphics[width=.75\linewidth]{DensidadGI0L3}}
+\subfigure[$L=8$]{\includegraphics[width=.75\linewidth]{DensidadGI0L8}}
 \caption{$\mathcal{G}^0(\alpha,\gamma^*,L)$ densities.}\label{densidades} 
 \end{figure}
 %JC Programa DensitiesGI02.R Es el mismo programa para L=3 y L=8. Tenès que cambiar el valor de L
@@ -614,8 +615,8 @@ For homogeneous areas, $\widehat{\alpha}_{\text{{ML}}}$ is the one with the smal
 
 \begin{figure*}[hbt]
 \centering
-\subfigure[\label{SesgoSinContL=3}$\widehat{\text{Bias}}$]{\includegraphics[width=0.49\linewidth]{../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil}}
-\subfigure[\label{ECMSinContL=3}$\widehat{\text{MSE}}$]{\includegraphics[width=0.49\linewidth]{../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil}}
+\subfigure[\label{SesgoSinContL=3}$\widehat{\text{Bias}}$]{\includegraphics[width=0.49\linewidth]{GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil}}
+\subfigure[\label{ECMSinContL=3}$\widehat{\text{MSE}}$]{\includegraphics[width=0.49\linewidth]{GraficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil}}
 \caption{Sample Bias and MSE with uncontaminated data and $L=3$.}\label{SesgoyECMSinContL=3} 
 \end{figure*}    
 %JC Programa: GraficoSesgoSinCont_L3BarrasErroryPercentil.R
@@ -625,8 +626,8 @@ areas in terms of bias, while $\widehat{\alpha}_{\text{{LN}}}$ outperforms the r
 
 \begin{figure*}[hbt]
 \centering
-\subfigure[\label{SesgoSinContL=8}$\widehat{\text{Bias}}$]{\includegraphics[width=0.49\linewidth]{../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil}}
-\subfigure[\label{ECMSinContL=8}$\widehat{\text{MSE}}$]{\includegraphics[width=0.49\linewidth]{../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil}}
+\subfigure[\label{SesgoSinContL=8}$\widehat{\text{Bias}}$]{\includegraphics[width=0.49\linewidth]{GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil}}
+\subfigure[\label{ECMSinContL=8}$\widehat{\text{MSE}}$]{\includegraphics[width=0.49\linewidth]{GraficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil}}
 \caption{Bias and MSE estimates for uncontaminated data and $L=8$.}\label{SesgoyECMSinContL=8} 
 \end{figure*}
 %JC Programa: GraficoSesgoSinCont_L8BarrasErroryPercentil.R
@@ -638,7 +639,7 @@ Moreover, from $n=49$ onwards the shape of the $\widehat{\alpha}_{\text{{LN}}}$ 
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=1\linewidth]{../Figures/DensidadEstimadorNoCont}
+\includegraphics[width=1\linewidth]{DensidadEstimadorNoCont}
 \caption{\label{Fig:DistributionL=3_alfa=-3} Sample density of estimators for $\alpha=-3$ and  $L=3$ }
 \end{figure}
 %JC Programa:DensityPropuestaNoCont.R	
@@ -655,7 +656,7 @@ The estimator which suffers the least with the texture reduction is $\widehat{\a
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=1\linewidth]{../Figures/Asymptotic_n500_TodoAlfa}
+\includegraphics[width=1\linewidth]{Asymptotic_n500_TodoAlfa}
 \caption{\label{Fig:Densities_n500} Sample density of the estimators for $n=500$. }
 \end{figure}
 %JC Programa:AsymptoticDensityNoCont_n500.R	
@@ -782,24 +783,24 @@ The horizontal line is the true value.
 
 \begin{figure}[hbt]
 \centering
-\subfigure[\label{InflL3alfa-1.5n25}$\widehat{\alpha}=-1.5$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-1punto5L3n25}}%JC Programa: GraficoInvluenciaL3alfa-1punto5n25.R
-\subfigure[\label{InflL3alfa-3n25}$\widehat{\alpha}=-3$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-3L3n25}}%JC Programa:GraficoInvluenciaL3alfa-3n25.R
+\subfigure[\label{InflL3alfa-1.5n25}$\widehat{\alpha}=-1.5$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-1punto5L3n25}}%JC Programa: GraficoInvluenciaL3alfa-1punto5n25.R
+\subfigure[\label{InflL3alfa-3n25}$\widehat{\alpha}=-3$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-3L3n25}}%JC Programa:GraficoInvluenciaL3alfa-3n25.R
 \caption{SEIF for $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$, $\widehat{\alpha}_{\text{{{LC}}}}$ para $L=3$, $n=25$ y $\alpha=-1.5,-3$.}\label{SEIFL3a} 
 \end{figure}
 %JC Programa GraficoInvluenciaL3alfa-1punto5n25.R y GraficoInvluenciaL3alfa-3n25.R
 
 \begin{figure}[hbt]
 \centering
-\subfigure[\label{InflL3alfa-5n25}$\widehat{\alpha}=-5$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-5L3n25}}%JC Programa:GraficoInvluenciaL3alfa-5n25.R
-\subfigure[\label{InflL3alfa-8n25}$\widehat{\alpha}=-8$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-8L3n25}}%JC Programa:GraficoInvluenciaL3alfa-8n25.R
+\subfigure[\label{InflL3alfa-5n25}$\widehat{\alpha}=-5$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-5L3n25}}%JC Programa:GraficoInvluenciaL3alfa-5n25.R
+\subfigure[\label{InflL3alfa-8n25}$\widehat{\alpha}=-8$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-8L3n25}}%JC Programa:GraficoInvluenciaL3alfa-8n25.R
 \caption{SEIF for $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$, $\widehat{\alpha}_{\text{{{LC}}}}$ para $L=3$, $n=25$ y $\alpha=-5,-8$.}\label{SEIFL3b} 
 \end{figure}
 %JC Programa GraficoInvluenciaL3alfa-5n25.R y GraficoInvluenciaL3alfa-8n25.R
 
 \begin{figure}[hbt]
 \centering
-\subfigure[\label{InflL8alfa-1.5n25}$\widehat{\alpha}=-1.5$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-1punto5L8n25}}%JC Programa: GraficoInvluenciaL8alfa-1punto5n25.R
-\subfigure[\label{InflL8alfa-3n25}$\widehat{\alpha}=-3$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-3L8n25}}%JC Programa: GraficoInvluenciaL8alfa-3n25.R
+\subfigure[\label{InflL8alfa-1.5n25}$\widehat{\alpha}=-1.5$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-1punto5L8n25}}%JC Programa: GraficoInvluenciaL8alfa-1punto5n25.R
+\subfigure[\label{InflL8alfa-3n25}$\widehat{\alpha}=-3$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-3L8n25}}%JC Programa: GraficoInvluenciaL8alfa-3n25.R
 \caption{SEIF for $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$, $\widehat{\alpha}_{\text{{{LC}}}}$ para $L=8$, $n=25$ y $\alpha=-1.5,-3$.}\label{SEIFL8a} 
 \end{figure}
 %JC Programa GraficoInvluenciaL8alfa-1punto5n25.R y GraficoInvluenciaL3alfa-3n25.R
@@ -807,8 +808,8 @@ The horizontal line is the true value.
 
 \begin{figure}[hbt]
 \centering
-\subfigure[\label{InflL8alfa-5n25}$\widehat{\alpha}=-5$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-5L8n25}}%JC Programa: GraficoInvluenciaL8alfa-5n25.R
-\subfigure[\label{InflL8alfa-8n25}$\widehat{\alpha}=-8$]{\includegraphics[width=.48\linewidth]{../Figures/CurvaInfluenciaAlfa-8L8n25}}%JC Programa: GraficoInvluenciaL8alfa-8n25.R
+\subfigure[\label{InflL8alfa-5n25}$\widehat{\alpha}=-5$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-5L8n25}}%JC Programa: GraficoInvluenciaL8alfa-5n25.R
+\subfigure[\label{InflL8alfa-8n25}$\widehat{\alpha}=-8$]{\includegraphics[width=.48\linewidth]{CurvaInfluenciaAlfa-8L8n25}}%JC Programa: GraficoInvluenciaL8alfa-8n25.R
 \caption{SEIF for $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$, $\widehat{\alpha}_{\text{{LC}}}$ para $L=8$, $n=25$ y $\alpha=-5,-8$.}\label{SEIFL8b} 
 \end{figure}
 %JC Programa GraficoInvluenciaL8alfa-5n25.R y GraficoInvluenciaL3alfa-8n25.R
@@ -833,16 +834,16 @@ Figures~\ref{SesgoyECMConContL=3} and~\ref{SesgoyECMConContL=8} present these qu
 %%%%%%%%%%%%%%%%%% EPSILON 0.05
 \begin{figure*}[hbt]
 \centering
-\subfigure[\label{SesgoConContL=3}$\widehat{\text{Bias}}$]{\includegraphics[width=.49\linewidth]{../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
-\subfigure[\label{ECMConContL=3}$\widehat{\text{MSE}}$]{\includegraphics[width=.49\linewidth]{../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
+\subfigure[\label{SesgoConContL=3}$\widehat{\text{Bias}}$]{\includegraphics[width=.49\linewidth]{GraficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
+\subfigure[\label{ECMConContL=3}$\widehat{\text{MSE}}$]{\includegraphics[width=.49\linewidth]{GraficoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
 \caption{Bias and MSE for contaminated data,  $\epsilon=0.05$ and $ L=3$.}\label{SesgoyECMConContL=3} 
 \end{figure*}
 %JC Programa: GraficoSesgoCont_L3BarrasError1ypercentil.R
 
 \begin{figure*}[hbt]
 \centering
-\subfigure[\label{SesgoConContL=8}$\widehat{\text{Bias}}$]{\includegraphics[width=.49\linewidth]{../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
-\subfigure[\label{ECMConContL=8}$\widehat{\text{MSE}}$]{\includegraphics[width=.49\linewidth]{../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
+\subfigure[\label{SesgoConContL=8}$\widehat{\text{Bias}}$]{\includegraphics[width=.49\linewidth]{GraficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
+\subfigure[\label{ECMConContL=8}$\widehat{\text{MSE}}$]{\includegraphics[width=.49\linewidth]{GraficoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
 \caption{Bias and MSE for contaminated data,  $\epsilon=0.05$ and $ L=8$.}\label{SesgoyECMConContL=8} 
 \end{figure*}
 %JC Programa: GraficoSesgoCont_L8BarrasError1ypercentil.R
@@ -875,8 +876,8 @@ Since our smallest sample size of interest is $n=9$, and the number of permutati
 
 \begin{figure}[hbt]
 \centering
-%\subfigure[\label{MuestraLooks}Samples used to estimate ENL]{\includegraphics[width=0.48\linewidth]{../Figures/MuestrasEstimNumLooks}}
-\includegraphics[width=0.8\linewidth]{../Figures/TresMuestrasAgrandada}
+%\subfigure[\label{MuestraLooks}Samples used to estimate ENL]{\includegraphics[width=0.48\linewidth]{MuestrasEstimNumLooks}}
+\includegraphics[width=0.8\linewidth]{TresMuestrasAgrandada}
 \caption{Samples used to estimate $\widehat{\alpha}$.}\label{TresMuestras} 
 \end{figure}
 %JC Programa: GraficaTresMuestrasImagenESARUnPar_dlr_munichAgrandada.R
@@ -982,14 +983,14 @@ Figure~\ref{AlfaVsTamCincoMuestras} shows the estimates $\widehat{\alpha}$ for e
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=0.7\linewidth]{../Figures/CincoMuestras}
+\includegraphics[width=0.7\linewidth]{CincoMuestras}
 \caption{Five samples used to compare $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$ and  $\widehat{\alpha}_{\text{{LC}}}$.}\label{CincoMuestras}
 \end{figure}
 %JC Programa: GraficaTresMuestrasImagenESARUnPar_dlr_munichAgrandada.R
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=\linewidth]{../Figures/AlfaVsTamCincoMuestrasCorregido_v2}
+\includegraphics[width=\linewidth]{AlfaVsTamCincoMuestrasCorregido_v2}
 \caption{ $\widehat{\alpha}_{\text{{ML}}}$, $\widehat{\alpha}_{\Gamma}$, $\widehat{\alpha}_{\text{{LN}}}$ and $\widehat{\alpha}_{\text{{LC}}}$ for corresponding samples to image~\ref{CincoMuestras}.}\label{AlfaVsTamCincoMuestras}
 \end{figure}
 %JC programa: GraficoAlfaEstvs_n_ImagenReal_Corregido.R
@@ -1095,7 +1096,7 @@ It is important to note that the confidence intervals are larger than those pres
 
 \begin{figure}[hbt]
 \centering
-\includegraphics[width=\linewidth]{../Figures/CornerJulia_Roja}
+\includegraphics[width=\linewidth]{CornerJulia_Roja}
 \caption{Nested samples with and without a corner reflector.}\label{CornerReflector}
 \end{figure}
 %JC Programa: ImagenESARUnPar_dlr_munich_RecoradaCorner.R
