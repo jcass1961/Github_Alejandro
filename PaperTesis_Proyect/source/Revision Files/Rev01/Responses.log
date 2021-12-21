@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.11)  16 DEC 2021 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.11)  21 DEC 2021 17:13
 entering extended mode
 **./Responses.tex
 (Responses.tex
@@ -798,11 +798,11 @@ Package rerunfilecheck Info: File `Responses.out' has not changed.
 (rerunfilecheck)             Checksum: FF7B4EDCCF0746C4EAAFB32E9595C9F9;486.
  ) 
 Here is how much of TeX's memory you used:
- 16356 strings out of 478864
- 256048 string characters out of 2848660
+ 16359 strings out of 478864
+ 256040 string characters out of 2848660
  617884 words of memory out of 3000000
  33867 multiletter control sequences out of 15000+600000
- 450981 words of font info for 141 fonts, out of 8000000 for 9000
+ 451220 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,6n,131p,503b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -821,7 +821,7 @@ MiKTeX/fonts/type1/bera/fver8a.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/latxfont/lasy6.pfb><C:/Users/Julia/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Julia/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Responses.pdf (4 pages, 641991 bytes).
+Output written on Responses.pdf (4 pages, 642226 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
