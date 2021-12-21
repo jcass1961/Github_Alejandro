@@ -45,10 +45,10 @@ base.df<-base0%>% gather(.,key=metodo,value=alfa.est,4:7) %>% filter(alfa==-3)
 base.df
 
 LegendTitle = "Method"
-legenda.nomb<-c("alfa.MV"=expression(paste("  ",widehat(alpha)[ML])), 
-                "alfa.GA"=expression(paste("  ",widehat(alpha)[Gamma])), 
-                "alfa.LN"=expression(paste("  ",widehat(alpha)[LN])),
-                "alfa.LC"=expression(paste("  ",widehat(alpha)[LC])))
+legenda.nomb<-c("alfa.MV"=expression(paste("",widehat(alpha)[ML])), 
+                "alfa.GA"=expression(paste("",widehat(alpha)[Gamma])), 
+                "alfa.LN"=expression(paste("",widehat(alpha)[LN])),
+                "alfa.LC"=expression(paste("",widehat(alpha)[LC])))
 
 #legenda.nomb<-c("alfa.MV"="ML","alfa.GA"=expression(Gamma),"alfa.LN"="LN","alfa.LC"="LC")
 
@@ -61,8 +61,7 @@ nombre.ticks<-factor(base.df$alfa.est, levels = c("-1","-3","-5"),
                 expression(alpha==-3),
                 expression(alpha==-5))
 )
-
-
+pdf("../../figures/ConModificacionAlejandro/DensidadEstimadorNoCont.pdf")
 
 p<-ggplot(base.df, aes(x=alfa.est,color=metodo)) + 
   #facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3) + 
@@ -98,11 +97,7 @@ p1<-p+ geom_vline(aes(xintercept=-3),
               color="blue", linetype="dashed", size=1)+ geom_hline(aes(yintercept=0),
                                                                    color="black",  size=1)+
   facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3)  
-######################################## 
-getwd()
-ggsave("../../figures/ConModificacionAlejandro/DensidadEstimadorNoCont.pdf", 
-       plot = last_plot(), 
-       device = "pdf", 
-       scale=2)
-# system("convert ../../Figures/PaperTesis/DensidadEstimadorNoCont.pdf ../../Figures/PaperTesis/DensidadEstimadorNoCont.eps
-# ")
+
+print(p1)
+dev.off()
+
