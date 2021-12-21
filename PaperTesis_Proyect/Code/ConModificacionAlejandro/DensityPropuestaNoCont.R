@@ -61,11 +61,12 @@ nombre.ticks<-factor(base.df$alfa.est, levels = c("-1","-3","-5"),
                 expression(alpha==-3),
                 expression(alpha==-5))
 )
-pdf("../../figures/ConModificacionAlejandro/DensidadEstimadorNoCont.pdf")
 
-p<-ggplot(base.df, aes(x=alfa.est,color=metodo)) + 
+pdf("../../Figures/ConModificacionAlejandro/DensidadEstimadorNoCont.pdf")
+
+p <- ggplot(base.df, aes(x=alfa.est,color=metodo)) + 
   #facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3) + 
-  facet_wrap(~n,labeller = label_bquote(cols=italic("n="*.(n))),ncol=3) + 
+  facet_wrap(~n, labeller = label_bquote(cols=italic("n="*.(n))),ncol=3) + 
   geom_line(stat='density', aes(linetype = metodo), size = 2) +
   scale_x_continuous(breaks=c(-3),limits = c(-6,-1))+
   #scale_color_discrete(name = LegendTitle,labels = legenda.nomb)+
@@ -79,25 +80,19 @@ p<-ggplot(base.df, aes(x=alfa.est,color=metodo)) +
   #                    values = c(17, 19, 18,15),
   #                    labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=30, family="serif"),
+  theme(text=element_text(size=24, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=30),
-        legend.title = element_text( size=30),
-        axis.text.y = element_text( size = 30 ),
-        axis.text.x = element_text(hjust = 1, size = 30,angle=45),
-        axis.title.y = element_text( size = 30 ),
-        axis.title.x = element_text( size = 30 ),
+        legend.text = element_text(size=24),
+        legend.title = element_text(size=24),
+        axis.text.y = element_text(size = 24),
+        axis.text.x = element_text(hjust = 1, size = 24, angle=45),
+        axis.title.y = element_text(size = 24),
+        axis.title.x = element_text(size = 24),
         #axis.ticks.length=unit(0.5,"cm"),
-        strip.text = element_text(size = 30))+
-  labs(x="",y = "Density")
-  #labs(x=expression(paste(widehat(alpha))), y = "Density")
-  
-p
-p1<-p+ geom_vline(aes(xintercept=-3),
-              color="blue", linetype="dashed", size=1)+ geom_hline(aes(yintercept=0),
-                                                                   color="black",  size=1)+
-  facet_wrap(~n,labeller = labeller(n=n.labs),ncol=3)  
+        strip.text = element_text(size = 24))+
+  labs(x="",y = "Density") + 
+  geom_vline(aes(xintercept=-3), color="blue", linetype="dashed", size=1) + 
+  geom_hline(aes(yintercept=0), color="black",  size=1) 
 
-print(p1)
+print(p)
 dev.off()
-
