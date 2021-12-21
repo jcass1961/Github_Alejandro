@@ -49,7 +49,7 @@ cant.black<-length(nombre.ticks)-2
 nombre.x<-expression(italic(z))
 
 graf.alfa<-paste("../../figures/ConModificacionAlejandro/CurvaInfluenciaAlfa",alfa.nomb,"L",L,"n",n,".pdf",sep="")
-pdf(graf.alfa,width=8,height = 8)
+pdf(graf.alfa)
 
 pp1<-ggplot(datos1, aes(x=grilla)) +
   geom_line(aes(y=alfa.GA, colour="Set1",linetype="Set1"),size=2) +
@@ -67,16 +67,16 @@ pp1<-ggplot(datos1, aes(x=grilla)) +
                         values = c("Set1" ="dashed", "Set2"="twodash" ,"Set3"= "dotted","Set4"="longdash"),
                         labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=35, family="serif"),
+  theme(text=element_text(size=30, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=35),
-        legend.title = element_text( size=35),
-        axis.text.y = element_text( size = 35 ),
+        legend.text = element_text( size=30),
+        legend.title = element_text( size=30),
+        axis.text.y = element_text( size = 30 ),
         axis.text.x = element_text(colour = c("red","red",rep("black",cant.black)),
-                                   angle=70,hjust = 1, size = 35),
-        axis.title.y = element_text( size = 35 ),
-        axis.title.x = element_text( size = 35 ),
-        strip.text = element_text(size = 35))
+                                   angle=70,hjust = 1, size = 30),
+        axis.title.y = element_text( size = 30 ),
+        axis.title.x = element_text( size = 30 ),
+        strip.text = element_text(size = 30))
 
 
 
