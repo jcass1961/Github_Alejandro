@@ -34,10 +34,10 @@ datos1 <- read.csv(nombre1)
 Cuantil.alfa<-t(round(Cuantil$alfa8,2))
 
 head(datos1)
-legenda.nomb<-c("Set1"=expression(paste("  ",widehat(alpha)[Gamma])),
-                "Set2"=expression(paste("  ",widehat(alpha)[LC])),
-                "Set3"=expression(paste("  ",widehat(alpha)[LN])),
-                "Set4"=expression(paste("  ",widehat(alpha)[ML])))
+legenda.nomb<-c("Set1"=expression(widehat(alpha)[Gamma]),
+                "Set2"=expression(widehat(alpha)[LC]),
+                "Set3"=expression(widehat(alpha)[LN]),
+                "Set4"=expression(widehat(alpha)[ML]))
 
 ticks<-c(Cuantil.alfa,seq(8,20,2))
 
@@ -46,6 +46,10 @@ nombre.ticks<-c(min(Cuantil.alfa),max(Cuantil.alfa),3,5,7,9,11)
 cant.black<-length(nombre.ticks)-2
 
 nombre.x<-expression(italic(z))
+
+graf.alfa<-paste("../../figures/ConModificacionAlejandro/CurvaInfluenciaAlfa",alfa.nomb,"L",L,"n",n,".pdf",sep="")
+pdf(graf.alfa)
+
 
 pp1<-ggplot(datos1, aes(x=grilla)) +
   geom_line(aes(y=alfa.GA, colour="Set1",linetype="Set1"),size=2) +
@@ -63,25 +67,19 @@ pp1<-ggplot(datos1, aes(x=grilla)) +
                         values = c("Set1" ="dashed", "Set2"="twodash" ,"Set3"= "dotted","Set4"="longdash"),
                         labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=55, family="serif"),
+  theme(text=element_text(size=30, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=55),
-        legend.title = element_text( size=55),
-        axis.text.y = element_text( size = 55 ),
+        legend.text = element_text( size=30),
+        legend.title = element_text( size=30),
+        axis.text.y = element_text( size = 30 ),
         axis.text.x = element_text(colour = c("red","red",rep("black",cant.black)),
-                                   angle=70,hjust = 1, size = 55),
-        axis.title.y = element_text( size = 55 ),
-        axis.title.x = element_text( size = 55 ),
-        strip.text = element_text(size = 55))
+                                   angle=70,hjust = 1, size = 30),
+        axis.title.y = element_text( size = 30 ),
+        axis.title.x = element_text( size = 30 ),
+        strip.text = element_text(size = 30))
 
 
+p1<-pp1+geom_line(data=datos1, aes(x = grilla,y=alfa),size=2, color="blue") 
 
-pp1+geom_line(data=datos1, aes(x = grilla,y=alfa),size=2, color="blue") 
-
-
-##################### GRABA GRAFICOS
-setwd("../../figures/ConModificacionAlejandro")
-getwd()
-
-graf.alfa<-paste("CurvaInfluenciaAlfa",alfa.nomb,"L",L,"n",n,".pdf",sep="")
-ggsave(graf.alfa, plot = last_plot(), device = "pdf",scale=2)
+print(p1)
+dev.off()

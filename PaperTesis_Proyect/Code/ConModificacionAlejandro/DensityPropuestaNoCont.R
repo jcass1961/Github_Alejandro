@@ -45,10 +45,10 @@ base.df<-base0%>% gather(.,key=metodo,value=alfa.est,4:7) %>% filter(alfa==-3)
 base.df
 
 LegendTitle = "Method"
-legenda.nomb<-c("alfa.MV"=expression(paste("",widehat(alpha)[ML])), 
-                "alfa.GA"=expression(paste("",widehat(alpha)[Gamma])), 
-                "alfa.LN"=expression(paste("",widehat(alpha)[LN])),
-                "alfa.LC"=expression(paste("",widehat(alpha)[LC])))
+legenda.nomb<-c("alfa.MV"=expression(widehat(alpha)[ML]), 
+                "alfa.GA"=expression(widehat(alpha)[Gamma]), 
+                "alfa.LN"=expression(widehat(alpha)[LN]),
+                "alfa.LC"=expression(widehat(alpha)[LC]))
 
 #legenda.nomb<-c("alfa.MV"="ML","alfa.GA"=expression(Gamma),"alfa.LN"="LN","alfa.LC"="LC")
 
@@ -79,16 +79,16 @@ p<-ggplot(base.df, aes(x=alfa.est,color=metodo)) +
   #                    values = c(17, 19, 18,15),
   #                    labels = legenda.nomb)+
   theme_few()+
-  theme(text=element_text(size=35, family="serif"),
+  theme(text=element_text(size=30, family="serif"),
         legend.position="top",
-        legend.text = element_text( size=35),
-        legend.title = element_text( size=35),
-        axis.text.y = element_text( size = 35 ),
-        axis.text.x = element_text(hjust = 1, size = 35,angle=45),
-        axis.title.y = element_text( size = 35 ),
-        axis.title.x = element_text( size = 35 ),
+        legend.text = element_text( size=30),
+        legend.title = element_text( size=30),
+        axis.text.y = element_text( size = 30 ),
+        axis.text.x = element_text(hjust = 1, size = 30,angle=45),
+        axis.title.y = element_text( size = 30 ),
+        axis.title.x = element_text( size = 30 ),
         #axis.ticks.length=unit(0.5,"cm"),
-        strip.text = element_text(size = 35))+
+        strip.text = element_text(size = 30))+
   labs(x="",y = "Density")
   #labs(x=expression(paste(widehat(alpha))), y = "Density")
   
