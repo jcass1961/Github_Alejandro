@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.11)  19 DEC 2021 06:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=latex 2021.11.30)  22 DEC 2021 10:20
 entering extended mode
 **./CassettiFreryR1.tex
 (CassettiFreryR1.tex
@@ -194,10 +194,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: dvips.def on input line 107.
 
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
@@ -331,7 +331,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 ))
 \l__siunitx_number_exponent_fixed_int=\count299
 \l__siunitx_number_min_decimal_int=\count300
@@ -344,8 +344,10 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
-)
+Package color Info: Driver file: dvips.def on input line 149.
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 \l__siunitx_table_tmp_box=\box57
 \l__siunitx_table_tmp_dim=\dimen180
 \l__siunitx_table_column_width_dim=\dimen181
@@ -364,11 +366,16 @@ eys2e.sty
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-06-01 L3 programming layer (loader) 
 
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count307
+(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
+ps.def
+File: l3backend-dvips.def 2021-05-07 L3 backend support: dvips
 \l__pdf_internal_box=\box62
+\g__pdf_backend_object_int=\count307
+\l__pdf_backend_content_box=\box63
+\l__pdf_backend_model_box=\box64
+\g__pdf_backend_annotation_int=\count308
+\g__pdf_backend_link_int=\count309
+\g__pdf_backend_link_sf_int=\count310
 ))
 Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
@@ -379,20 +386,20 @@ Package siunitx Warning: Detected the "units" package:
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen184
-\ar@mcellbox=\box63
+\ar@mcellbox=\box65
 \extrarowheight=\dimen185
 \NC@list=\toks25
 \extratabsurround=\skip65
 \backup@length=\skip66
-\ar@cellbox=\box64
+\ar@cellbox=\box66
 ))
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count308
+\c@float@type=\count311
 \float@exts=\toks26
-\float@box=\box65
+\float@box=\box67
 \@float@everytoks=\toks27
-\@floatcapt=\box66
+\@floatcapt=\box68
 )
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
@@ -428,20 +435,20 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box67
-\sift@deathcycles=\count309
+\@vwid@box=\box69
+\sift@deathcycles=\count312
 \@vwid@loff=\dimen186
 \@vwid@roff=\dimen187
 )
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box68
-\UL@hyphenbox=\box69
+\UL@box=\box70
+\UL@hyphenbox=\box71
 \UL@skip=\skip67
 \UL@hook=\toks28
 \UL@height=\dimen188
-\UL@pe=\count310
+\UL@pe=\count313
 \UL@pixel=\dimen189
-\ULC@box=\box70
+\ULC@box=\box72
 Package: ulem 2019/11/18
 \ULdepth=\dimen190
 )
@@ -477,63 +484,14 @@ LaTeX Font Info:    ... okay on input line 51.
 
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
-
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen191
-\scratchbox=\box71
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen192
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks30
-)
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
-
-(C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 LaTeX Info: Redefining \microtypecontext on input line 51.
-Package microtype Info: Generating PDF output.
+Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 51.
+Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
 (C:\Users\Julia\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
@@ -607,10 +565,64 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
-[1{C:/Users/Julia/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+Overfull \hbox (14.71323pt too wide) in paragraph at lines 111--118
+\OT1/ptm/m/n/10 rep-re-sent-ing, re-spec-tively, the tar-get in-for-ma-tion and
+ the speckle
+ []
 
 
-] [2]
+Overfull \hbox (0.51373pt too wide) in paragraph at lines 127--131
+\OT1/ptm/m/n/10 liers. As ex-pected, the lack of ro-bust-ness is more pro-nounc
+ed
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+Overfull \hbox (11.48257pt too wide) in paragraph at lines 153--159
+\OT1/ptm/m/n/10 sis-tent. Be-ran [6] pro-posed an MDE es-ti-ma-tor us-ing Helli
+nger's
+ []
+
+
+Overfull \hbox (1.9133pt too wide) in paragraph at lines 153--159
+\OT1/ptm/m/n/10 den-sity es-ti-ma-tor us-ing sym-met-ric ker-nels. The work sho
+wed
+ []
+
+
+Overfull \hbox (0.79298pt too wide) in paragraph at lines 153--159
+\OT1/ptm/m/n/10 strong con-sis-tency of these es-ti-ma-tors, and stud-ied its a
+symp-
+ []
+
+
+Overfull \hbox (7.49315pt too wide) in paragraph at lines 181--185
+\OT1/ptm/m/n/10 show-ing that the lat-ter presents a larger in-te-grated mean s
+quare
+ []
+
+
+Overfull \hbox (7.09393pt too wide) in paragraph at lines 181--185
+\OT1/ptm/m/n/10 the oth-ers. Re-gard-ing band-width choice, we use Least Square
+d
+ []
+
+
+Overfull \hbox (3.06313pt too wide) in paragraph at lines 181--185
+\OT1/ptm/m/n/10 place of the em-pir-i-cal se-lec-tion. Fur-ther-more, we use a 
+search
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
 24.
 
@@ -622,782 +634,175 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Overfull \hbox (0.65286pt too wide) in paragraph at lines 236--238
+[][]\OT1/ptm/m/n/10 Maximum like-li-hood es-ti-ma-tion is the clas-si-cal ap-pr
+oach
+ []
+
+
 Overfull \hbox (6.27069pt too wide) detected at line 250
 []
  []
 
 [3]
-Overfull \hbox (2.15205pt too wide) in paragraph at lines 277--279
-[]\OT1/ptm/m/n/10 (-20) Cassetti et al. [14] used the no-tion of min-i-miz-ing 
-a stochas-
+Overfull \hbox (2.4739pt too wide) in paragraph at lines 271--276
+\OT1/ptm/m/n/10 gen-er-al-iza-tions of the $\OML/ztmcm/m/it/10 J$\OT1/ptm/m/n/1
+0 - and $\OML/ztmcm/m/it/10 R$\OT1/ptm/m/n/10 -divergences de-fined by Taneja
  []
 
-Package epstopdf Info: Source file: <../Figures/NucleosGALNyIG.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 393334 bytes
-(epstopdf)             Output file: <../Figures/NucleosGALNyIG-eps-converted-to
-.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/NucleosGA
-LNyIG-eps-converted-to.pdf ../Figures/NucleosGALNyIG.eps>
-(epstopdf)             \includegraphics on input line 351.
-runsystem(miktex-epstopdf --outfile=../Figures/NucleosGALNyIG-eps-converted-to.
-pdf ../Figures/NucleosGALNyIG.eps)...executed (allowed).
 
-Package epstopdf Info: Result file: <../Figures/NucleosGALNyIG-eps-converted-to
-.pdf>.
-
-! Package pdftex.def Error: File `../Figures/NucleosGALNyIG-eps-converted-to.pd
-f' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.351 ...th=\linewidth]{../Figures/NucleosGALNyIG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4]
-Package epstopdf Info: Source file: <../Figures/DensidadGI0L3.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 329251 bytes
-(epstopdf)             Output file: <../Figures/DensidadGI0L3-eps-converted-to.
-pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadG
-I0L3-eps-converted-to.pdf ../Figures/DensidadGI0L3.eps>
-(epstopdf)             \includegraphics on input line 431.
-runsystem(miktex-epstopdf --outfile=../Figures/DensidadGI0L3-eps-converted-to.p
-df ../Figures/DensidadGI0L3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/DensidadGI0L3-eps-converted-to.
-pdf>.
+Overfull \hbox (6.41307pt too wide) in paragraph at lines 277--279
+[][]\OT1/ptm/m/n/10 Cassetti et al. [14] used the no-tion of min-i-miz-ing a st
+ochas-
+ []
 
 
-! Package pdftex.def Error: File `../Figures/DensidadGI0L3-eps-converted-to.pdf
-' not found: using draft setting.
+Overfull \hbox (2.04346pt too wide) in paragraph at lines 294--298
+[][]\OT1/ptm/m/n/10 Gambini et al. [28] es-ti-mated the un-der-ly-ing den-sity 
+func-
+ []
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.431 ....75\linewidth]{../Figures/DensidadGI0L3}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+File: ../Figures/NucleosGALNyIG.eps Graphic file (type eps)
+<../Figures/NucleosGALNyIG.eps> [4]
+File: ../Figures/DensidadGI0L3.eps Graphic file (type eps)
+ <../Figures/DensidadGI0L3.eps>
+File: ../Figures/DensidadGI0L8.eps Graphic file (type eps)
 
-Package epstopdf Info: Source file: <../Figures/DensidadGI0L8.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 326352 bytes
-(epstopdf)             Output file: <../Figures/DensidadGI0L8-eps-converted-to.
-pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadG
-I0L8-eps-converted-to.pdf ../Figures/DensidadGI0L8.eps>
-(epstopdf)             \includegraphics on input line 432.
-runsystem(miktex-epstopdf --outfile=../Figures/DensidadGI0L8-eps-converted-to.p
-df ../Figures/DensidadGI0L8.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/DensidadGI0L8-eps-converted-to.
-pdf>.
-
-! Package pdftex.def Error: File `../Figures/DensidadGI0L8-eps-converted-to.pdf
-' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 ....75\linewidth]{../Figures/DensidadGI0L8}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
+<../Figures/DensidadGI0L8.eps> [5]
 Overfull \hbox (3.23244pt too wide) in paragraph at lines 467--467
-[]|$\OMS/ztmcm/m/n/8.5  \OT1/ztmcm/m/n/8.5 1\OML/ztmcm/m/it/8.5 :\OT1/ztmcm/m/n
-/8.5 5$|  
+[][]|$\OMS/ztmcm/m/n/8.5  \OT1/ztmcm/m/n/8.5 1\OML/ztmcm/m/it/8.5 :\OT1/ztmcm/m
+/n/8.5 5$|  
+ []
+
+
+Overfull \hbox (7.94257pt too wide) in paragraph at lines 505--510
+\OT1/ptm/m/n/10 sent dif-fer-ent lev-els of tex-ture, and $\OML/ztmcm/m/it/10 n
+ \OMS/ztmcm/m/n/10 2 f\OT1/ztmcm/m/n/10 9\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10
+ 25\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 49\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n
+/10 81\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 121\OML/ztmcm/m/it/10 ; \OT1/ztmcm
+/m/n/10 500\OMS/ztmcm/m/n/10 g$
  []
 
 [6]
-Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
-ont_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 220069 bytes
-(epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
-ont_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
-sgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures
-/GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
-(epstopdf)             \includegraphics on input line 617.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCo
-nt_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyL
-C_L=3SinCont_BarrasErroryPercentil.eps)...executed (allowed).
+File: ../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps G
+raphic file (type eps)
+ <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
+File: ../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps Gra
+phic file (type eps)
 
-Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinC
-ont_BarrasErroryPercentil-eps-converted-to.pdf>.
+<../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
+File: ../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps G
+raphic file (type eps)
 
+<../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
+File: ../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps Gra
+phic file (type eps)
 
-! Package pdftex.def Error: File `../Figures/GraficoSesgoMVyGAyLNyLC_L=3SinCont
-_BarrasErroryPercentil-eps-converted-to.pdf' not found: using draft setting.
+<../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
+File: ../Figures/DensidadEstimadorNoCont.eps Graphic file (type eps)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.617 ...yLNyLC_L=3SinCont_BarrasErroryPercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../Figures/DensidadEstimadorNoCont.eps>
+File: ../Figures/Asymptotic_n500_TodoAlfa.eps Graphic file (type eps)
 
-Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
-t_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 207960 bytes
-(epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
-t_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
-MMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/G
-raficoECMMVyGAyLNyLC_L=3SinCont_BarrasErroryPercentil.eps>
-(epstopdf)             \includegraphics on input line 618.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont
-_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=
-3SinCont_BarrasErroryPercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=3SinCon
-t_BarrasErroryPercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoECMMVyGAyLNyLC_L=3SinCont_B
-arrasErroryPercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.618 ...yLNyLC_L=3SinCont_BarrasErroryPercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
-ont_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 220137 bytes
-(epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
-ont_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
-sgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures
-/GraficoSesgoMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
-(epstopdf)             \includegraphics on input line 628.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCo
-nt_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyL
-C_L=8SinCont_BarrasErroryPercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinC
-ont_BarrasErroryPercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoSesgoMVyGAyLNyLC_L=8SinCont
-_BarrasErroryPercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.628 ...yLNyLC_L=8SinCont_BarrasErroryPercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
-t_BarrasErroryPercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 207908 bytes
-(epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
-t_BarrasErroryPercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
-MMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/G
-raficoECMMVyGAyLNyLC_L=8SinCont_BarrasErroryPercentil.eps>
-(epstopdf)             \includegraphics on input line 629.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont
-_BarrasErroryPercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=
-8SinCont_BarrasErroryPercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=8SinCon
-t_BarrasErroryPercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoECMMVyGAyLNyLC_L=8SinCont_B
-arrasErroryPercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 ...yLNyLC_L=8SinCont_BarrasErroryPercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/DensidadEstimadorNoCont.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 384143 bytes
-(epstopdf)             Output file: <../Figures/DensidadEstimadorNoCont-eps-con
-verted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/DensidadE
-stimadorNoCont-eps-converted-to.pdf ../Figures/DensidadEstimadorNoCont.eps>
-(epstopdf)             \includegraphics on input line 641.
-runsystem(miktex-epstopdf --outfile=../Figures/DensidadEstimadorNoCont-eps-conv
-erted-to.pdf ../Figures/DensidadEstimadorNoCont.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/DensidadEstimadorNoCont-eps-con
-verted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/DensidadEstimadorNoCont-eps-conver
-ted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.641 ...idth]{../Figures/DensidadEstimadorNoCont}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/Asymptotic_n500_TodoAlfa.eps>
-(epstopdf)                    date: 2021-12-19 06:53:41
-(epstopdf)                    size: 263573 bytes
-(epstopdf)             Output file: <../Figures/Asymptotic_n500_TodoAlfa-eps-co
-nverted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/Asymptoti
-c_n500_TodoAlfa-eps-converted-to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps>
-(epstopdf)             \includegraphics on input line 658.
-runsystem(miktex-epstopdf --outfile=../Figures/Asymptotic_n500_TodoAlfa-eps-con
-verted-to.pdf ../Figures/Asymptotic_n500_TodoAlfa.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/Asymptotic_n500_TodoAlfa-eps-co
-nverted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/Asymptotic_n500_TodoAlfa-eps-conve
-rted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.658 ...dth]{../Figures/Asymptotic_n500_TodoAlfa}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \vbox (badness 2173) has occurred while \output is active []
+<../Figures/Asymptotic_n500_TodoAlfa.eps>
+Underfull \vbox (badness 2828) has occurred while \output is active []
 
  [7]
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
-5.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 268536 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
-5-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-1punto5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1pu
-nto5L3n25.eps>
-(epstopdf)             \includegraphics on input line 785.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L3n25
--eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L3n25.eps)...execut
-ed (allowed).
+File: ../Figures/CurvaInfluenciaAlfa-1punto5L3n25.eps Graphic file (type eps)
 
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-1punto5L3n2
-5-eps-converted-to.pdf>.
+<../Figures/CurvaInfluenciaAlfa-1punto5L3n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-3L3n25.eps Graphic file (type eps)
 
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-1punto5L3n25-e
-ps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.785 ...igures/CurvaInfluenciaAlfa-1punto5L3n25}}
-                                                  %JC Programa: GraficoInvlu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-3L3n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 271616 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-3L3n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-3L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.ep
-s>
-(epstopdf)             \includegraphics on input line 786.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L3n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L3n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-3L3n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-3L3n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.786 ...]{../Figures/CurvaInfluenciaAlfa-3L3n25}}
-                                                  %JC Programa:GraficoInvlue...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-5L3n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 264775 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-5L3n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-5L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.ep
-s>
-(epstopdf)             \includegraphics on input line 793.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L3n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L3n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-5L3n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-5L3n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.793 ...]{../Figures/CurvaInfluenciaAlfa-5L3n25}}
-                                                  %JC Programa:GraficoInvlue...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-8L3n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 260331 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-8L3n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-8L3n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.ep
-s>
-(epstopdf)             \includegraphics on input line 794.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L3n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L3n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-8L3n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-8L3n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.794 ...]{../Figures/CurvaInfluenciaAlfa-8L3n25}}
-                                                  %JC Programa:GraficoInvlue...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
-5.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 267197 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
-5-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-1punto5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1pu
-nto5L8n25.eps>
-(epstopdf)             \includegraphics on input line 801.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-1punto5L8n25
--eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-1punto5L8n25.eps)...execut
-ed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-1punto5L8n2
-5-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-1punto5L8n25-e
-ps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.801 ...igures/CurvaInfluenciaAlfa-1punto5L8n25}}
-                                                  %JC Programa: GraficoInvlu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-3L8n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 264785 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-3L8n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-3L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.ep
-s>
-(epstopdf)             \includegraphics on input line 802.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-3L8n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-3L8n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-3L8n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-3L8n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.802 ...]{../Figures/CurvaInfluenciaAlfa-3L8n25}}
-                                                  %JC Programa: GraficoInvlu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-5L8n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 256647 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-5L8n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-5L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.ep
-s>
-(epstopdf)             \includegraphics on input line 810.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-5L8n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-5L8n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-5L8n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-5L8n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.810 ...]{../Figures/CurvaInfluenciaAlfa-5L8n25}}
-                                                  %JC Programa: GraficoInvlu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/CurvaInfluenciaAlfa-8L8n25.eps>
-
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 250564 bytes
-(epstopdf)             Output file: <../Figures/CurvaInfluenciaAlfa-8L8n25-eps-
-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CurvaInfl
-uenciaAlfa-8L8n25-eps-converted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.ep
-s>
-(epstopdf)             \includegraphics on input line 811.
-runsystem(miktex-epstopdf --outfile=../Figures/CurvaInfluenciaAlfa-8L8n25-eps-c
-onverted-to.pdf ../Figures/CurvaInfluenciaAlfa-8L8n25.eps)...executed (allowed)
-.
-
-Package epstopdf Info: Result file: <../Figures/CurvaInfluenciaAlfa-8L8n25-eps-
-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/CurvaInfluenciaAlfa-8L8n25-eps-con
-verted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.811 ...]{../Figures/CurvaInfluenciaAlfa-8L8n25}}
-                                                  %JC Programa: GraficoInvlu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
-_BarrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 222849 bytes
-(epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
-_BarrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
-sgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Gr
-aficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
-(epstopdf)             \includegraphics on input line 836.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_
-BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L
-=3Cont_BarrasErrorypercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont
-_BarrasErrorypercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_Ba
-rrasErrorypercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.836 ...yGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
-arrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 210771 bytes
-(epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
-arrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
-MMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Graf
-icoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
-(epstopdf)             \includegraphics on input line 837.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_Ba
-rrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=3Co
-nt_BarrasErrorypercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_B
-arrasErrorypercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_Barr
-asErrorypercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.837 ...yGAyLNyLC_L=3Cont_BarrasErrorypercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
-_BarrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 222451 bytes
-(epstopdf)             Output file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
-_BarrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoSe
-sgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Gr
-aficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
-(epstopdf)             \includegraphics on input line 844.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_
-BarrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoSesgoMVyGAyLNyLC_L
-=8Cont_BarrasErrorypercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont
-_BarrasErrorypercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_Ba
-rrasErrorypercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.844 ...yGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
-arrasErrorypercentil.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 210531 bytes
-(epstopdf)             Output file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
-arrasErrorypercentil-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/GraficoEC
-MMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil-eps-converted-to.pdf ../Figures/Graf
-icoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
-(epstopdf)             \includegraphics on input line 845.
-runsystem(miktex-epstopdf --outfile=../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_Ba
-rrasErrorypercentil-eps-converted-to.pdf ../Figures/GraficoECMMVyGAyLNyLC_L=8Co
-nt_BarrasErrorypercentil.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_B
-arrasErrorypercentil-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_Barr
-asErrorypercentil-eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.845 ...yGAyLNyLC_L=8Cont_BarrasErrorypercentil}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[8]
+<../Figures/CurvaInfluenciaAlfa-3L3n25.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+File: ../Figures/CurvaInfluenciaAlfa-5L3n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-5L3n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-8L3n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-8L3n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-1punto5L8n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-1punto5L8n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-3L8n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-3L8n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-5L8n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-5L8n25.eps>
+File: ../Figures/CurvaInfluenciaAlfa-8L8n25.eps Graphic file (type eps)
+
+<../Figures/CurvaInfluenciaAlfa-8L8n25.eps>
+Underfull \vbox (badness 1077) has occurred while \output is active []
 
  [9]
-[10]
-Package epstopdf Info: Source file: <../Figures/TresMuestrasAgrandada.eps>
-(epstopdf)                    date: 2021-12-19 06:53:43
-(epstopdf)                    size: 247387 bytes
-(epstopdf)             Output file: <../Figures/TresMuestrasAgrandada-eps-conve
-rted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/TresMuest
-rasAgrandada-eps-converted-to.pdf ../Figures/TresMuestrasAgrandada.eps>
-(epstopdf)             \includegraphics on input line 879.
-runsystem(miktex-epstopdf --outfile=../Figures/TresMuestrasAgrandada-eps-conver
-ted-to.pdf ../Figures/TresMuestrasAgrandada.eps)...executed (allowed).
+File: ../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps Grap
+hic file (type eps)
 
-Package epstopdf Info: Result file: <../Figures/TresMuestrasAgrandada-eps-conve
-rted-to.pdf>.
+<../Figures/GraficoSesgoMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
+File: ../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps Graphi
+c file (type eps)
 
+<../Figures/GraficoECMMVyGAyLNyLC_L=3Cont_BarrasErrorypercentil.eps>
+File: ../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps Grap
+hic file (type eps)
 
-! Package pdftex.def Error: File `../Figures/TresMuestrasAgrandada-eps-converte
-d-to.pdf' not found: using draft setting.
+<../Figures/GraficoSesgoMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
+File: ../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps Graphi
+c file (type eps)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.879 ...ewidth]{../Figures/TresMuestrasAgrandada}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../Figures/GraficoECMMVyGAyLNyLC_L=8Cont_BarrasErrorypercentil.eps>
+Overfull \hbox (0.63335pt too wide) in paragraph at lines 850--855
+[][]\OT1/ptm/m/n/10 At this level of con-tam-i-na-tion, it can be seen more cle
+arly
+ []
 
-Package epstopdf Info: Source file: <../Figures/CincoMuestras.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 1155224 bytes
-(epstopdf)             Output file: <../Figures/CincoMuestras-eps-converted-to.
-pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CincoMues
-tras-eps-converted-to.pdf ../Figures/CincoMuestras.eps>
-(epstopdf)             \includegraphics on input line 985.
-runsystem(miktex-epstopdf --outfile=../Figures/CincoMuestras-eps-converted-to.p
-df ../Figures/CincoMuestras.eps)...executed (allowed).
+File: ../Figures/TresMuestrasAgrandada.eps Graphic file (type eps)
+<../Figures/TresMuestrasAgrandada.eps> [10] [11]
+File: ../Figures/CincoMuestras.eps Graphic file (type eps)
 
-Package epstopdf Info: Result file: <../Figures/CincoMuestras-eps-converted-to.
-pdf>.
-
-! Package pdftex.def Error: File `../Figures/CincoMuestras-eps-converted-to.pdf
-' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.985 ...=0.7\linewidth]{../Figures/CincoMuestras}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package epstopdf Info: Source file: <../Figures/AlfaVsTamCincoMuestrasCorregido
-_v2.eps>
-(epstopdf)                    date: 2021-12-19 06:53:41
-(epstopdf)                    size: 192032 bytes
-(epstopdf)             Output file: <../Figures/AlfaVsTamCincoMuestrasCorregido
-_v2-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/AlfaVsTam
-CincoMuestrasCorregido_v2-eps-converted-to.pdf ../Figures/AlfaVsTamCincoMuestra
-sCorregido_v2.eps>
-(epstopdf)             \includegraphics on input line 992.
-runsystem(miktex-epstopdf --outfile=../Figures/AlfaVsTamCincoMuestrasCorregido_
-v2-eps-converted-to.pdf ../Figures/AlfaVsTamCincoMuestrasCorregido_v2.eps)...ex
-ecuted (allowed).
-
-Package epstopdf Info: Result file: <../Figures/AlfaVsTamCincoMuestrasCorregido
-_v2-eps-converted-to.pdf>.
-
-! Package pdftex.def Error: File `../Figures/AlfaVsTamCincoMuestrasCorregido_v2
--eps-converted-to.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.992 ...gures/AlfaVsTamCincoMuestrasCorregido_v2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<../Figures/CincoMuestras.eps>
+File: ../Figures/AlfaVsTamCincoMuestrasCorregido_v2.eps Graphic file (type eps)
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<../Figures/AlfaVsTamCincoMuestrasCorregido_v2.eps>
+Underfull \vbox (badness 5667) has occurred while \output is active []
 
  [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+File: ../Figures/CornerJulia_Roja.eps Graphic file (type eps)
 
- [13]
-Package epstopdf Info: Source file: <../Figures/CornerJulia_Roja.eps>
-(epstopdf)                    date: 2021-12-19 06:53:42
-(epstopdf)                    size: 656462 bytes
-(epstopdf)             Output file: <../Figures/CornerJulia_Roja-eps-converted-
-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../Figures/CornerJul
-ia_Roja-eps-converted-to.pdf ../Figures/CornerJulia_Roja.eps>
-(epstopdf)             \includegraphics on input line 1098.
-runsystem(miktex-epstopdf --outfile=../Figures/CornerJulia_Roja-eps-converted-t
-o.pdf ../Figures/CornerJulia_Roja.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../Figures/CornerJulia_Roja-eps-converted-
-to.pdf>.
-
-
-! Package pdftex.def Error: File `../Figures/CornerJulia_Roja-eps-converted-to.
-pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1098 ...\linewidth]{../Figures/CornerJulia_Roja}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14] (CassettiFreryR1.bbl [15]
-Underfull \hbox (badness 1127) in paragraph at lines 139--144
-[]\OT1/ptm/m/n/8.5 (+20) Fei, Y., Rong, G., Wang, B., Wang, W.: Par-al-lel L-BF
-GS-
+<../Figures/CornerJulia_Roja.eps> [13] (CassettiFreryR1.bbl [14]
+Underfull \hbox (badness 1668) in paragraph at lines 139--144
+[][]\OT1/ptm/m/n/8.5 Fei, Y., Rong, G., Wang, B., Wang, W.: Par-al-lel L-BFGS-
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 139--144
-\OT1/ptm/m/n/8.5 (+20) B al-go-rithm on GPU.  Com-put-ers & Graph-ics \OT1/ptm/
-b/n/8.5 (+20) 40\OT1/ptm/m/n/8.5 (+20) , 1 --
- []
-
-
-Underfull \hbox (badness 6348) in paragraph at lines 139--144
-\OT1/ptm/m/n/8.5 (+20) 9 (2014).  DOI $https : / / doi . org / 10 . 1016 / j . 
-cag . 2014 . 01 . 002$.
+Underfull \hbox (badness 3019) in paragraph at lines 139--144
+\OT1/ptm/m/n/8.5 B al-go-rithm on GPU.  Com-put-ers & Graph-ics \OT1/ptm/b/n/8.
+5 40\OT1/ptm/m/n/8.5 , 1 --
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--144
-\OT1/ptm/m/n/8.5 (+20) URL $\OT1/pcr/m/n/8.5 http : / / www . sciencedirect . c
-om / science /
+\OT1/ptm/m/n/8.5 9 (2014).  DOI $https : / / doi . org / 10 . 1016 / j . cag . 
+2014 . 01 . 002$.
  []
 
-[16]) [17
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+\OT1/ptm/m/n/8.5 URL $\OT1/pcr/m/n/8.5 http : / / www . sciencedirect . com / s
+cience /
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 202--204
+[][]\OT1/ptm/m/n/8.5 Luenberger, D., Ye, Y.: Lin-ear and Non-lin-ear Pro-gram-m
+ing.
+ []
+
+[15]) [16
 
 ] (CassettiFreryR1.aux)
 
@@ -1405,30 +810,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11431 strings out of 478864
- 256660 string characters out of 2848660
- 609256 words of memory out of 3000000
- 28692 multiletter control sequences out of 15000+600000
- 488883 words of font info for 432 fonts, out of 8000000 for 9000
+ 9805 strings out of 478865
+ 210936 string characters out of 2848685
+ 599759 words of memory out of 3000000
+ 27551 multiletter control sequences out of 15000+600000
+ 443864 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,16n,81p,719b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Julia/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Julia/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/Julia/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Julia/AppData/Local
-/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Julia/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Julia/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Julia/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Julia/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CassettiFreryR1.pdf (17 pages, 214327 bytes).
-PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 81921 words of extra memory for PDF output out of 89155 (max. 10000000)
 
+Output written on CassettiFreryR1.dvi (16 pages, 139356 bytes).

@@ -1,0 +1,13 @@
+
+Alejandro C. Frery
+received a B.Sc. degree in Electronic and Electrical Engineering from the Universidad de Mendoza, Mendoza, Argentina.
+His M.Sc. degree was in Applied Mathematics (Statistics) from the Instituto de Matem\'atica Pura e Aplicada (IMPA, Rio de Janeiro) and his Ph.D. degree was in Applied Computing from the Instituto Nacional de Pesquisas Espaciais (INPE, S\~ao Jos\'e dos Campos, Brazil).
+He is Professor with the School of Mathematics and Statistics, Victoria University of Wellington, New Zealand.
+His research interests are statistical computing and stochastic modeling.
+
+Julia Cassetti
+received the B.Sc. degree in Mathematics and a postgraduate diploma in Mathematical Statistics, both from the Universidad de Buenos Aires (UBA), Argentina.
+Her Ph.D. degree was in Ciencie from the Universidad Nacional de General Sarmiento, Argentina.
+She is currently a Professor at the Universidad Nacional de General Sarmiento, Argentina. 
+Her research interests are SAR imaging and applied statistics.
+
